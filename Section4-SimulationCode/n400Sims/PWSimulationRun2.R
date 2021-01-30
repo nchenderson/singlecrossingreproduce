@@ -192,10 +192,7 @@ ResultsKM2 <- ResultsKM
 
 save(theta.hat, RMSTDiff, SFDiff, SSDiff, RRMLDiff, Stheta, RMSTDiff.KM, SFDiff.KM, SSDiff.KM,
      rmstdiff.true, sfdiff.true, ssdiff.true, rrmldiff.true, Results2, ResultsKM2, 
-     file="~/Documents/DelayedTreatment/SimulationResults/EstimationRuns/run2.RData")
-#pp <- PermutationTest(ds.obj$discretized.times, events, trt, nperms=20) 
-#lr.test <- survdiff(Surv(ds.obj$discretized.times, events) ~ trt)
-#1 - pchisq(lr.test$chisq, df=1)
+     file="~/Section4-SimulationResults/run2.RData")
 
 
 

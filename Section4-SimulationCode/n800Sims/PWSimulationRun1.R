@@ -203,8 +203,5 @@ ResultsKM1 <- ResultsKM
 
 save(theta.hat, RMSTDiff, SFDiff, SSDiff, RRMLDiff, Stheta, RMSTDiff.KM, SFDiff.KM, SSDiff.KM,
      rmstdiff.true, sfdiff.true, ssdiff.true, rrmldiff.true, Results1, ResultsKM1, 
-     file="~/Documents/DelayedTreatment/SimulationResults/EstimationRuns/run1_n800.RData")
-
-round(Results1, 4)
-round(ResultsKM1, 4)
+     file="~/Section4-SimulationResults/run1_n800.RData")
 

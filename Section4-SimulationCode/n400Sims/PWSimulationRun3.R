@@ -188,7 +188,7 @@ ResultsKM3 <- ResultsKM
 
 save(theta.hat, RMSTDiff, SFDiff, SSDiff, RRMLDiff, Stheta, RMSTDiff.KM, SFDiff.KM, SSDiff.KM,
      rmstdiff.true, sfdiff.true, ssdiff.true, rrmldiff.true, Results3, ResultsKM3, 
-     file="~/Documents/DelayedTreatment/SimulationResults/EstimationRuns/run3.RData")
+     file="~/Section4-SimulationResults/run3.RData")
 
 
 
