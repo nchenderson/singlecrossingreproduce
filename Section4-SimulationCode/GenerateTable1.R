@@ -75,7 +75,7 @@ cap <- "Mean-squared error for different quantities using the single-crossing co
         and the Kaplan-Meier estimator. "
 
 colnames(RR) <- Cnames
-xtable(RR, digits=rep(4, 10), caption=cap)
+xtable(RR[,c(1:7,9,8)], digits=rep(4, 10), caption=cap)
 
 
 
